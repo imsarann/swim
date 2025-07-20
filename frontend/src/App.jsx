@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Curves from './components/Curves';
-import Background from './components/background';
+
 import MainHome from './pages/MainHome';
 // import Home from './pages/Home';
 // import About from './pages/About';
@@ -19,7 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home></Home>} />
-        <Route path="/c" element={<Background></Background>}/>
+        {/* <Route path="/c" element={<Background></Background>}/> */}
         <Route path="/home" element={<MainHome></MainHome>}/>
 
         {/* <Route path="/about-us" element={<About />} />
