@@ -35,7 +35,7 @@ export default function Gallery() {
         return (
           <motion.div
             key={i}
-            className="group p-2 m-4 rounded-xl flex justify-center shadow-2xl bg-white/80 mt-5"
+            className="group p-2 m-4 rounded-xl flex justify-center shadow-2xl bg-white/40 mt-5"
             style={{
               
               perspective: 1000,

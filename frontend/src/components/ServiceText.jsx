@@ -75,9 +75,9 @@ function Card({ title, text, icon }) {
 
         <div className="blob absolute z-[1] top-1/2 left-1/2 w-[380px] h-[150px] rounded-full bg-neutral-900 opacity-100 blur-[12px]"></div>
 
-        <div className="z-[3] text-neutral-950 text-center px-6">
+        <div className="z-[3] text-neutral-950 text-center px-6 font-Playfair">
           <img src={icon} alt={title} className="w-22 bg-white p-2 rounded-full mx-auto h-20 mb-4" />
-          <h3 className="text-2xl font-bold mb-2">{title}</h3>
+          <h3 className="text-2xl font-bold mb-2 font-Manrope">{title}</h3>
           <p className="text-xl font-medium text-gray-700">{text}</p>
         </div>
       </div>

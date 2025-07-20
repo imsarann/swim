@@ -45,7 +45,10 @@ export default function MainHome() {
         <div className="flex justify-center">
           <Title text={"Our Products"} />
         </div>
+        <div className="mb-5">
+
         <Products />
+        </div>
       </div>
     </Background2>
   );
