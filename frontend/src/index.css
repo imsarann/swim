@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@font-face {
+  font-family: Bangers;
+  src: url("./assets/fonts/Bangers-Regular.ttf");
+}
+@font-face {
+  font-family: Anton;
+  src: url("./assets/fonts/Anton-Regular.ttf");
+}
+@font-face {
+  font-family: Manrope;
+  src: url("./assets/fonts/Manrope-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Julee;
+  src: url("./assets/fonts/Julee-Regular.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter_18pt-SemiBold.ttf");
+}
+@font-face {
+  font-family: Playfair;
+  src: url("./assets/fonts/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: Lato;
+  src: url("./assets/fonts/Lato-Regular.ttf");
+}
+
+@theme{
+  --color-oceanBlue : #4F42B5;
+  --color-cardColor : #ceeff2;
+  --color-cardColor2 : #2c585b;
+  --color-navbar : #fdfdfd;
+  --color-wave :#1b7f89;
+  --color-lightBeige : #f8f6f1;
+  --font-mainFont: "Oswald", "sans-serif";
+  --font-Dmsans : "DM Sans", sans-serif;
+  --color-Navbar : #05262a;
+  --color-Main : #1b7f89;
+  
+  
+  --font-Inter : "Inter", sans-serif;
+  --font-Lato : "Lato", sans-serif;
+  --font-Playfair : "Playfair", serif;
+  --font-Manrope : "Manrope", sans-serif;
+  --font-Anton : "Anton", sans-serif;
+  --font-Bangers : "Bangers", system-ui;
+  --font-Julee : "Julee", cursive;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
